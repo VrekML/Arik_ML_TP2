@@ -1,0 +1,255 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    color: white;
+    font-family: Lato, sans-serif;
+}
+
+h2{
+    font-size: 35px;
+}
+
+a {
+    color: darkgray;
+}
+
+header, footer{
+    background-color: black;
+    height:25vh;
+}
+
+header{
+    position: sticky;
+    top: -12vh;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1vh 11vw;
+}
+
+header h1{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1vw;
+}
+
+header a:hover{
+    color: darkgray;
+}
+
+section{
+    height: auto;
+    padding-top: 20vh;
+    padding-left: 2vw;
+    padding-bottom: 15vh;
+    top: -25vh;
+}
+
+#accueil{
+    height: 20vh;
+    padding: 0px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#accueil a{
+    color: black;
+    font-size: 40px;
+}
+
+#accueil h3{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#moi{
+    padding-top: 20vh
+}
+
+#moi h2{
+    color: black;
+}
+
+#moi p{
+    margin-right: 4vh;
+    padding-top: 25px;
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#tableau table{
+    width:800px;
+    height: 500px;
+    background-color:white;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#tableau caption{
+    margin-top:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:black;
+    color:white;
+    border: 2px solid rgb(78, 78, 78);
+    border-bottom: none;
+}
+
+#tableau td{
+    width: 150px;
+    border: 2px solid gray;
+}
+
+#tableau th{
+    border: 2px solid rgb(78, 78, 78);
+    border-right: gray;
+    background-color: rgb(160, 160, 160)
+}
+
+#tableau .footer{
+    border-bottom:2px solid rgb(78, 78, 78);
+    border-left:2px solid rgb(78, 78, 78);
+    border-right: 2px solid rgb(78, 78, 78);
+    background-color: black;
+    color: white;
+}
+
+#tableau .francais{
+    background: linear-gradient(to right,  rgb(172, 0, 0) 0%,rgb(255, 72, 72) 50%,rgb(172, 0, 0) 100%);
+}
+
+#tableau .anglais{
+    background: linear-gradient(to right,  rgb(43, 37, 164) 0%,rgb(81, 76, 167) 50%,rgb(43, 37, 164) 100%);
+}
+
+#tableau .educ{
+    background: linear-gradient(to right,  rgb(255, 235, 57) 0%,rgb(255, 242, 130) 50%,rgb(255, 235, 57) 100%);
+}
+
+#tableau .imagerie{
+    background: linear-gradient(to right,  rgb(57, 255, 113) 0%,rgb(130, 255, 197) 50%,rgb(57, 255, 113) 100%);
+}
+
+#tableau .jeu{
+    background: linear-gradient(to right,  rgb(209, 57, 255) 0%,rgb(228, 130, 255) 50%,rgb(209, 57, 255) 100%);
+}
+
+#tableau .web{
+    background: linear-gradient(to right,  rgb(255, 159, 57) 0%,rgb(255, 199, 130) 50%,rgb(255, 159, 57) 100%);
+}
+
+#tableau .video{
+    background: linear-gradient(to right,  rgb(255, 57, 166) 0%,rgb(255, 130, 199) 50%,rgb(255, 57, 166) 100%);
+}
+
+#galerie h2{
+    padding-bottom: 6vh;
+}
+
+#galerie img{
+    height: 13%;
+    width: 13%;
+    padding: 30px;   
+}
+
+#galerie img:hover{
+    transform: scale(1.3, 1.3);
+}
+
+#articles{
+    height: auto;
+}
+
+#articles a{
+    color: darkgray;
+    font-size: 30px;
+}
+
+#articles img{
+    padding: 30px;
+    width: 10%;
+    margin-top: 70px;
+}
+
+#articles img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+#inscription p{
+    margin-left: 30px;
+}
+
+#inscription input{
+    background-color: black;
+    color: white;
+}
+
+#inscription input, #inscription button{
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+}
+
+section:nth-child(2){
+    background-color:darkgray
+}
+
+section:nth-child(3){
+    background-color: gray
+}
+
+section:nth-child(4){
+    background-color: rgb(71, 71, 71)
+}
+
+section:nth-child(5){
+    background-color: rgb(44, 44, 44)
+}
+
+section:nth-child(6){
+    background-color: rgb(19, 19, 19)
+}
+
+section:nth-child(7){
+    background-color: rgb(8, 8, 8)
+}
+
+footer{
+    display: flex;
+    padding: 3vh 2vw;
+}
+
+footer{
+    padding-inline: 10vh;
+    height: 12vh;
+    background-color: black;
+}
+
+
+footer img{
+    padding-top: 20px;
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}

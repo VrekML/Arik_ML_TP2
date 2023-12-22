@@ -1,0 +1,62 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    color: white;
+    font-family: Lato, sans-serif;
+}
+
+header{
+    background-color: black;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1vh 11vw;
+}
+
+header h1{
+    text-align: center;
+}
+
+section{
+    background-color: gray;
+    padding: 40px;
+    font-size: 25px;
+}
+
+section img{
+    display: flex;
+}
+
+section #scale{
+    width: 30%;
+    height: 30%;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    padding-inline: 3vw;
+    padding-top: 2vh;
+}
+
+footer{
+    background-color: black;
+    padding-inline: 10vh;
+    height: 12vh;
+    display: flex;
+    padding: 3vh 2vw;
+}
+
+footer a{
+    color: white;
+}
